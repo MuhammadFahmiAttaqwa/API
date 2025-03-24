@@ -1,0 +1,11 @@
+D:\Dotnet\ecommerce-api\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Dotnet\ecommerce-api\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Dotnet\ecommerce-api\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Dotnet\ecommerce-api\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

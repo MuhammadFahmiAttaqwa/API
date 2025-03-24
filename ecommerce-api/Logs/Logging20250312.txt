@@ -1,0 +1,196 @@
+2025-03-12 00:32:23.811 +07:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 00:32:25.474 +07:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.519 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.634 +07:00 [WRN] No store type was specified for the decimal property 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.644 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.645 +07:00 [WRN] No store type was specified for the decimal property 'PromotionPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.662 +07:00 [WRN] No store type was specified for the decimal property 'Value5' on entity type 'SystemConfig'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:25.900 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'WholePrice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 00:32:29.012 +07:00 [INF] Executed DbCommand (380ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRole] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:29.209 +07:00 [INF] Executed DbCommand (142ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppUser] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:29.230 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ContactDetail] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:29.444 +07:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Function] AS [f]
+2025-03-12 00:32:29.522 +07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Footer] AS [f]
+WHERE [f].[Id] = 'DefaultFooterId'
+2025-03-12 00:32:29.540 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Color] AS [c]
+2025-03-12 00:32:29.552 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [AdvertistmentPage] AS [a]
+2025-03-12 00:32:29.562 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Slides] AS [s]
+2025-03-12 00:32:29.577 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Size] AS [s]
+2025-03-12 00:32:29.589 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ProductCategory] AS [p]
+2025-03-12 00:32:29.611 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeTitle') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:29.682 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaKeyword') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:29.694 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaDescription') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-12 00:32:30.683 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-12 00:32:31.683 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-12 00:32:31.926 +07:00 [INF] Hosting environment: Development
+2025-03-12 00:32:31.943 +07:00 [INF] Content root path: D:\Dotnet\ecommerce-api\ecommerce-api
+2025-03-12 00:32:32.754 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.html - null null
+2025-03-12 00:32:33.708 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.html - 200 null text/html;charset=utf-8 973.7883ms
+2025-03-12 00:32:42.926 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-12 00:32:42.945 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.7577ms
+2025-03-12 00:32:43.690 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_vs/browserLink - null null
+2025-03-12 00:32:43.800 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.5564ms
+2025-03-12 00:32:45.874 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - null null
+2025-03-12 00:32:46.095 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.2341ms
+2025-03-12 00:33:51.824 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5292/api/Login/OnLogin - application/json 80
+2025-03-12 00:33:53.074 +07:00 [INF] Executed DbCommand (363ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Avatar], [a].[Balance], [a].[BirthDay], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Status], [a].[TwoFactorEnabled], [a].[UpdatedDate], [a].[UserName]
+FROM [AppUser] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2025-03-12 00:33:53.328 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AppUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 00:33:53.389 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:33:53.428 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Description], [a].[Name], [a].[NormalizedName]
+FROM [AppRole] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 00:33:53.501 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 00:33:53.518 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:33:53.550 +07:00 [INF] Executing endpoint 'ecommerce_api.Controllers.LoginController.OnLogin (ecommerce-api)'
+2025-03-12 00:33:53.648 +07:00 [INF] Route matched with {action = "OnLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Application.DTO.ApiResult`1[System.Object]] OnLogin(Application.DTO.Request.LoginRequest) on controller ecommerce_api.Controllers.LoginController (ecommerce-api).
+2025-03-12 00:33:53.811 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Avatar], [a].[Balance], [a].[BirthDay], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Status], [a].[TwoFactorEnabled], [a].[UpdatedDate], [a].[UserName]
+FROM [AppUser] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 00:33:53.835 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Avatar], [a].[Balance], [a].[BirthDay], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Status], [a].[TwoFactorEnabled], [a].[UpdatedDate], [a].[UserName]
+FROM [AppUser] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-12 00:33:53.977 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AppUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 00:33:53.985 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:33:53.989 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Description], [a].[Name], [a].[NormalizedName]
+FROM [AppRole] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 00:33:53.993 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 00:33:54.000 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:33:54.022 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-12 00:33:54.026 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:33:54.159 +07:00 [INF] Executing ObjectResult, writing value of type 'Application.DTO.ApiResult`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-12 00:33:54.189 +07:00 [INF] Executed action ecommerce_api.Controllers.LoginController.OnLogin (ecommerce-api) in 535.2753ms
+2025-03-12 00:33:54.191 +07:00 [INF] Executed endpoint 'ecommerce_api.Controllers.LoginController.OnLogin (ecommerce-api)'
+2025-03-12 00:33:54.217 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5292/api/Login/OnLogin - 200 null application/json; charset=utf-8 2401.8913ms
+2025-03-12 00:34:22.105 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5292/api/Login/OnLogin - application/json 80
+2025-03-12 00:34:22.139 +07:00 [INF] Executing endpoint 'ecommerce_api.Controllers.LoginController.OnLogin (ecommerce-api)'
+2025-03-12 00:34:22.143 +07:00 [INF] Route matched with {action = "OnLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Application.DTO.ApiResult`1[System.Object]] OnLogin(Application.DTO.Request.LoginRequest) on controller ecommerce_api.Controllers.LoginController (ecommerce-api).
+2025-03-12 00:34:27.596 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Avatar], [a].[Balance], [a].[BirthDay], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Status], [a].[TwoFactorEnabled], [a].[UpdatedDate], [a].[UserName]
+FROM [AppUser] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-12 00:34:30.876 +07:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Avatar], [a].[Balance], [a].[BirthDay], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Status], [a].[TwoFactorEnabled], [a].[UpdatedDate], [a].[UserName]
+FROM [AppUser] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-12 00:34:31.003 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AppUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-12 00:34:31.011 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:34:31.018 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Description], [a].[Name], [a].[NormalizedName]
+FROM [AppRole] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-12 00:34:31.023 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-12 00:34:31.028 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:34:31.033 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-12 00:34:32.867 +07:00 [INF] Executed DbCommand (70ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRole] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-12 00:34:46.026 +07:00 [INF] Executing ObjectResult, writing value of type 'Application.DTO.ApiResult`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
