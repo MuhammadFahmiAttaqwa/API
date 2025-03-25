@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\ecommerce-api\\Utilities\\Utilities.csproj": {}
+    "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\ecommerce-api\\Utilities\\Utilities.csproj": {
+    "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\ecommerce-api\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "D:\\Dotnet\\ecommerce-api\\Utilities\\Utilities.csproj",
+        "projectPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\ecommerce-api\\Utilities\\obj\\",
+        "outputPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

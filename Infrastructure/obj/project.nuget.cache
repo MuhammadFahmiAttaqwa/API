@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PMeSuKk3GEF1a5P2icU2zS2YbTAbe/akaTK/J0j6cBl207P8pi3xYhcwbWCD6RhLSPLvq2KhOKEzWUdI+KKTwA==",
+  "dgSpecHash": "flv7WZ2/bHRdOkA5Kqs3vnYfgVP7uJSUVe8Q8TlEVNgNZPYPWDpy+DmEs0MKX3PrwFQuJJp/DmHRY4koFsF2iA==",
   "success": true,
-  "projectFilePath": "D:\\Dotnet\\ecommerce-api\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

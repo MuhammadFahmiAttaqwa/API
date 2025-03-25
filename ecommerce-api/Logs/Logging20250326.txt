@@ -1,0 +1,90 @@
+2025-03-26 00:10:33.457 +07:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:10:35.213 +07:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.308 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.666 +07:00 [WRN] No store type was specified for the decimal property 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.673 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.678 +07:00 [WRN] No store type was specified for the decimal property 'PromotionPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.679 +07:00 [WRN] No store type was specified for the decimal property 'Value5' on entity type 'SystemConfig'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:35.685 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'WholePrice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-26 00:10:39.607 +07:00 [INF] Executed DbCommand (648ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRole] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:39.688 +07:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppUser] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:39.770 +07:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ContactDetail] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:39.902 +07:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Function] AS [f]
+2025-03-26 00:10:40.008 +07:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Footer] AS [f]
+WHERE [f].[Id] = 'DefaultFooterId'
+2025-03-26 00:10:40.057 +07:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Color] AS [c]
+2025-03-26 00:10:40.092 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [AdvertistmentPage] AS [a]
+2025-03-26 00:10:40.142 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Slides] AS [s]
+2025-03-26 00:10:40.168 +07:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Size] AS [s]
+2025-03-26 00:10:40.206 +07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ProductCategory] AS [p]
+2025-03-26 00:10:40.270 +07:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeTitle') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:40.280 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaKeyword') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:40.290 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaDescription') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-26 00:10:41.691 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-26 00:10:41.871 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:10:42.133 +07:00 [INF] Hosting environment: Development
+2025-03-26 00:10:42.135 +07:00 [INF] Content root path: D:\Dotnet\Use-Github\fahmek12\API\ecommerce-api
+2025-03-26 00:10:43.161 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.html - null null
+2025-03-26 00:10:44.046 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.html - 200 null text/html;charset=utf-8 906.8983ms
+2025-03-26 00:10:44.270 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_vs/browserLink - null null
+2025-03-26 00:10:44.599 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-26 00:10:44.715 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 116.9241ms
+2025-03-26 00:10:44.805 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_vs/browserLink - 200 null text/javascript; charset=UTF-8 535.2246ms
+2025-03-26 00:10:44.921 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - null null
+2025-03-26 00:10:44.947 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - null null
+2025-03-26 00:10:45.679 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-26 00:10:45.689 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - 200 628 image/png 742.6164ms
+2025-03-26 00:10:45.830 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 908.8777ms

@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "ecommerce_api.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ecommerce_api.Controllers.HomeController",
     "Method": "GetSideBar",
     "RelativePath": "api/Home/GetSideBar",
@@ -38,16 +48,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "ecommerce_api.Controllers.HomeController",
-    "Method": "Logout",
-    "RelativePath": "api/Home/Logout/logout",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "ecommerce_api.Controllers.LoginController",

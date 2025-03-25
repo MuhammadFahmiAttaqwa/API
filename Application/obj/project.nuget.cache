@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOkZgcGlNvZdWx5d5ssFKbejF4p5IBQIpX1AigRNDUjIFndUqAAF6iJCDwChytD62JG5nx50pmml6PRGo6jOGQ==",
+  "dgSpecHash": "P3v2j3Hf4BAnkvzoiGdC5ZWo9lzwYYOSAMnf+EJ4F7d4G3A2FIm0H1/4fs2X0o56W76IZ3TcFq2FyBHS+VZRVg==",
   "success": true,
-  "projectFilePath": "D:\\Dotnet\\ecommerce-api\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
