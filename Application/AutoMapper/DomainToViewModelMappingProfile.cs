@@ -1,4 +1,5 @@
 ﻿using Application.DTO.Response;
+using Application.DTO.Response.Product;
 using AutoMapper;
 using Data.Entity;
 using System;
@@ -14,6 +15,7 @@ namespace Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Function, SidebarResponse>();
+            CreateMap<Product, ProductResponseAll>();
         }
     }
 }

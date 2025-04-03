@@ -4818,11 +4818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Data.EF\\Data.EF.csproj",
+      "projectUniqueName": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Data.EF\\Data.EF.csproj",
       "projectName": "Data.EF",
-      "projectPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Data.EF\\Data.EF.csproj",
+      "projectPath": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Data.EF\\Data.EF.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Data.EF\\obj\\",
+      "outputPath": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Data.EF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4839,14 +4839,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Application\\Application.csproj": {
-              "projectPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Application\\Application.csproj"
+            "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Application\\Application.csproj": {
+              "projectPath": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Application\\Application.csproj"
             },
-            "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Data\\Data.csproj": {
-              "projectPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Data\\Data.csproj"
+            "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Data\\Data.csproj": {
+              "projectPath": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Data\\Data.csproj"
             },
-            "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj": {
-              "projectPath": "D:\\Dotnet\\Use-Github\\fahmek12\\API\\Utilities\\Utilities.csproj"
+            "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\Dotnet\\Use-Github\\MuhammadFahmiAttaqwa\\API\\Utilities\\Utilities.csproj"
             }
           }
         }

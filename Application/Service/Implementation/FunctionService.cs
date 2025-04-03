@@ -41,8 +41,11 @@ namespace Application.Service.Implementation
         public async Task<List<SidebarResponse>> GetSideBar()
         {
             var user = _httpContextAccessor.HttpContext.User;
+
             if (user == null) throw new UnauthorizedAccessException("User tidak temukan");
+
             var roles = user.FindFirst("Roles")?.Value ?? string.Empty;
+
             List<Function> functions;
             if (roles.Split(";").Contains(CommonConstant.AppRole.AdminRole))
             {

@@ -31,6 +31,7 @@ namespace Application.Repository.Implementation
 
         public Task<SidebarResponse> getAllByPermission()
         {
+
             throw new NotImplementedException();
         }
     }

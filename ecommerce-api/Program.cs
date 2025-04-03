@@ -36,13 +36,15 @@ builder.Services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
 
 //Repositories
 builder.Services.AddTransient<IFunctionRepository,FunctionRepository>();
+builder.Services.AddTransient<IProductRepository,ProductRepository>();
 
 //Services
 builder.Services.AddTransient<IFunctionService, FunctionService>();
+builder.Services.AddTransient<IProductService,  ProductService>();
+
 
 //Mapper
-builder.Services.AddAutoMapper(typeof(DomainToViewModelMappingProfile), typeof(ViewModelToDomainMappingProfile));
-
+AutoMapperConfig.RegisterMapping(builder.Services);
 
 
 builder.Services.AddCors(options =>
