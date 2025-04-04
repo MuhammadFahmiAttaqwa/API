@@ -20,7 +20,7 @@ namespace Application.Repository.Implementation
 
         public async Task<List<Product>> GetAll()
         {
-            return await _repository.FindAll().ToListAsync();
+            return await _repository.FindAll(c => c.ProductCategory).ToListAsync();
         }
     }
 }

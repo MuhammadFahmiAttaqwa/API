@@ -21,3 +21,15 @@ D:\Dotnet\Use-Github\fahmek12\API\Utilities\obj\Debug\net8.0\Utilities.dll
 D:\Dotnet\Use-Github\fahmek12\API\Utilities\obj\Debug\net8.0\refint\Utilities.dll
 D:\Dotnet\Use-Github\fahmek12\API\Utilities\obj\Debug\net8.0\Utilities.pdb
 D:\Dotnet\Use-Github\fahmek12\API\Utilities\obj\Debug\net8.0\ref\Utilities.dll
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\bin\Debug\net8.0\Utilities.deps.json
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\bin\Debug\net8.0\Utilities.dll
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\bin\Debug\net8.0\Utilities.pdb
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.sourcelink.json
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.dll
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\Utilities.pdb
+D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\Utilities\obj\Debug\net8.0\ref\Utilities.dll

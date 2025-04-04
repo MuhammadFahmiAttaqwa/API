@@ -68,7 +68,6 @@ namespace ecommerce_api.Controllers
                 };
             }
 
-            // 4. Jika ada data, kembalikan response 200 OK
             return new ApiResult<List<SidebarResponse>>
             {
                 Status = true,

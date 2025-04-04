@@ -20,6 +20,7 @@ namespace ecommerce_api.Controllers
         {
             List<ProductResponseAll> products = await _productService.GetAll();
 
+
             ApiResponse<List<ProductResponseAll>> response = new ApiResponse<List<ProductResponseAll>>()
             {
                 Message = "Success",

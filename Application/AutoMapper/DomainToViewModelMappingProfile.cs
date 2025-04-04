@@ -1,5 +1,6 @@
 ﻿using Application.DTO.Response;
 using Application.DTO.Response.Product;
+using Application.DTO.Response.ProductCategory;
 using AutoMapper;
 using Data.Entity;
 using System;
@@ -16,6 +17,7 @@ namespace Application.AutoMapper
         {
             CreateMap<Function, SidebarResponse>();
             CreateMap<Product, ProductResponseAll>();
+            CreateMap<ProductCategory, ProductCategoryResponse>();
         }
     }
 }

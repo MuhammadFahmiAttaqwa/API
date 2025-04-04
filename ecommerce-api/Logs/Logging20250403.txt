@@ -1,0 +1,112 @@
+2025-04-03 23:55:58.466 +07:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-03 23:56:00.448 +07:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:00.662 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:00.870 +07:00 [WRN] No store type was specified for the decimal property 'OriginalPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:00.885 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:00.945 +07:00 [WRN] No store type was specified for the decimal property 'PromotionPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:01.011 +07:00 [WRN] No store type was specified for the decimal property 'Value5' on entity type 'SystemConfig'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:01.012 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'WholePrice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-03 23:56:03.879 +07:00 [INF] Executed DbCommand (409ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRole] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:03.958 +07:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppUser] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:04.077 +07:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ContactDetail] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:04.214 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Function] AS [f]
+2025-04-03 23:56:04.299 +07:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Footer] AS [f]
+WHERE [f].[Id] = 'DefaultFooterId'
+2025-04-03 23:56:04.318 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Color] AS [c]
+2025-04-03 23:56:04.328 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [AdvertistmentPage] AS [a]
+2025-04-03 23:56:04.342 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Slides] AS [s]
+2025-04-03 23:56:04.352 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Size] AS [s]
+2025-04-03 23:56:04.390 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ProductCategory] AS [p]
+2025-04-03 23:56:04.412 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeTitle') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:04.425 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaKeyword') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:04.433 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SystemConfig] AS [s]
+        WHERE [s].[Id] = N'HomeMetaDescription') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-03 23:56:05.171 +07:00 [INF] Now listening on: http://localhost:5292
+2025-04-03 23:56:05.272 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 23:56:05.276 +07:00 [INF] Hosting environment: Development
+2025-04-03 23:56:05.277 +07:00 [INF] Content root path: D:\Dotnet\Use-Github\MuhammadFahmiAttaqwa\API\ecommerce-api
+2025-04-03 23:56:07.374 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger - null null
+2025-04-03 23:56:08.192 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger - 301 0 null 844.1248ms
+2025-04-03 23:56:08.213 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.html - null null
+2025-04-03 23:56:08.357 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.html - 200 null text/html;charset=utf-8 144.235ms
+2025-04-03 23:56:08.541 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui.css - null null
+2025-04-03 23:56:08.542 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-03 23:56:08.542 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 23:56:08.542 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-bundle.js - null null
+2025-04-03 23:56:08.556 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - 200 13761 application/javascript; charset=utf-8 14.4549ms
+2025-04-03 23:56:08.568 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/_vs/browserLink - null null
+2025-04-03 23:56:08.624 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-03 23:56:08.624 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-03 23:56:08.747 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-03 23:56:08.798 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 256.6112ms
+2025-04-03 23:56:08.652 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui.css - 200 143943 text/css 110.736ms
+2025-04-03 23:56:08.830 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/_vs/browserLink - 200 null text/javascript; charset=UTF-8 262.3917ms
+2025-04-03 23:56:08.858 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 316.3834ms
+2025-04-03 23:56:09.105 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - null null
+2025-04-03 23:56:09.180 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - null null
+2025-04-03 23:56:09.227 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-03 23:56:09.231 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - 200 628 image/png 50.381ms
+2025-04-03 23:56:09.391 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 286.2741ms
+2025-04-03 23:56:21.137 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5292/api/Product/GetAll - null null
+2025-04-03 23:56:21.166 +07:00 [INF] Executing endpoint 'ecommerce_api.Controllers.ProductController.GetAll (ecommerce-api)'
+2025-04-03 23:56:21.198 +07:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Application.DTO.ApiResponse`1[System.Collections.Generic.List`1[Application.DTO.Response.Product.ProductResponseAll]]] GetAll() on controller ecommerce_api.Controllers.ProductController (ecommerce-api).
+2025-04-03 23:56:21.581 +07:00 [INF] Executed DbCommand (180ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Content], [p].[DateCreated], [p].[DateUpdated], [p].[Description], [p].[HomeFlag], [p].[HotFlag], [p].[Image], [p].[Name], [p].[OriginalPrice], [p].[Price], [p].[PromotionPrice], [p].[SeoAlias], [p].[SeoDescription], [p].[SeoKeywords], [p].[SeoPageTitle], [p].[Status], [p].[Tags], [p].[Unit], [p].[ViewCount], [p0].[Id], [p0].[DateCreated], [p0].[DateUpdated], [p0].[Description], [p0].[HomeFlag], [p0].[HomeOrder], [p0].[Image], [p0].[Name], [p0].[ParentId], [p0].[SeoAlias], [p0].[SeoDescription], [p0].[SeoKeywords], [p0].[SeoPageTitle], [p0].[SortOrder], [p0].[Status]
+FROM [Product] AS [p]
+INNER JOIN [ProductCategory] AS [p0] ON [p].[CategoryId] = [p0].[Id]
+2025-04-03 23:56:21.834 +07:00 [INF] Executing ObjectResult, writing value of type 'Application.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Application.DTO.Response.Product.ProductResponseAll, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-03 23:56:21.851 +07:00 [INF] Executed action ecommerce_api.Controllers.ProductController.GetAll (ecommerce-api) in 643.2208ms
+2025-04-03 23:56:21.889 +07:00 [INF] Executed endpoint 'ecommerce_api.Controllers.ProductController.GetAll (ecommerce-api)'
+2025-04-03 23:56:21.895 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5292/api/Product/GetAll - 200 null application/json; charset=utf-8 757.8238ms
