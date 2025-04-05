@@ -28,19 +28,19 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 builder.Services.AddScoped<DbIntializer>();
 builder.Services.AddScoped<UserManager<AppUser>>();
 builder.Services.AddScoped<RoleManager<AppRole>>();
-builder.Services.AddTransient<DbIntializer>();
+builder.Services.AddScoped<DbIntializer>();
 builder.Services.AddScoped<TokenHelper>();
 builder.Services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
-builder.Services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
-builder.Services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
+builder.Services.AddScoped(typeof(IUnitOfWork), typeof(EFUnitOfWork));
+builder.Services.AddScoped(typeof(IRepository<,>), typeof(EFRepository<,>));
 
 //Repositories
-builder.Services.AddTransient<IFunctionRepository,FunctionRepository>();
-builder.Services.AddTransient<IProductRepository,ProductRepository>();
+builder.Services.AddScoped<IFunctionRepository,FunctionRepository>();
+builder.Services.AddScoped<IProductRepository,ProductRepository>();
 
 //Services
-builder.Services.AddTransient<IFunctionService, FunctionService>();
-builder.Services.AddTransient<IProductService,  ProductService>();
+builder.Services.AddScoped<IFunctionService, FunctionService>();
+builder.Services.AddScoped<IProductService,  ProductService>();
 
 
 //Mapper

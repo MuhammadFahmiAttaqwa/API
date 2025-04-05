@@ -6,7 +6,7 @@ namespace ecommerce_api.Extension
     {
         public static Guid? GetUserId(this ClaimsPrincipal claimsPrincipal)
         {
-            var claim = claimsPrincipal?.FindFirst("UserId");
+            var claim = claimsPrincipal?.FindFirst(ClaimTypes.NameIdentifier);
             if (claim != null && Guid.TryParse(claim.Value, out var userId))
             {
                 return userId;

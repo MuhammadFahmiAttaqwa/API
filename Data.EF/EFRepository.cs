@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Data.EF
 {
-    public class EFRepository<T, K> : IRepository<T, K>, IDisposable where T : DomainEntity<K>
+    public class EFRepository<T, K> : IRepository<T, K>  where T : DomainEntity<K>
     {
         private readonly AppDbContext _context;
 
@@ -23,13 +23,6 @@ namespace Data.EF
             _context.Add(entity);
         }
 
-        public void Dispose()
-        {
-            if (_context != null)
-            {
-                _context.Dispose();
-            }
-        }
 
         public IQueryable<T> FindAll(params Expression<Func<T, object>>[] includeProperties)
         {

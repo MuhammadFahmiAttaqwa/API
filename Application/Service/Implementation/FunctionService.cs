@@ -28,11 +28,6 @@ namespace Application.Service.Implementation
             _mapper = mapper;
         }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
         public Task<SidebarResponse> GetAllPermision(Guid userId)
         {
             throw new NotImplementedException();

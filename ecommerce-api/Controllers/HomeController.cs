@@ -25,14 +25,14 @@ namespace ecommerce_api.Controllers
         {
             var claims = new
             {
-                NameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value,
+                UserId = User.GetUserId(),
                 Email = User.FindFirst(ClaimTypes.Email)?.Value,
                 FullName = User.FindFirst("FullName")?.Value,
                 Avatar = User.FindFirst("Avatar")?.Value,
                 Roles = User.FindFirst("Roles")?.Value
             };
 
-            if (claims.NameIdentifier == null)
+            if (claims.UserId == null)
             {
                 return await Task.FromResult(ApiResult<object>.Error("User is not authenticated"));
             }
