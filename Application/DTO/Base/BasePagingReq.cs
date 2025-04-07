@@ -8,6 +8,9 @@ namespace Application.DTO.Base
 {
     public abstract class BasePagingReq
     {
+        public int Page { get; set; }
+
+        public int PageSize { get; set; }
 
     }
 }

@@ -35,14 +35,6 @@ namespace Application.DTO
             Data = data;
         }
 
-        public static ApiResult<T> Success(string msg = "successful", object otherData = null, string methodDescription = null, T data = default)
-        {
-            return new ApiResult<T>(true, msg, 200, otherData, methodDescription, data);
-        }
-
-        public static ApiResult<T> Error(string msg = "error", int code = 400, object otherData = null, string methodDescription = null)
-        {
-            return new ApiResult<T>(false, msg, code, otherData, methodDescription, default);
-        }
+       
     }
 }
